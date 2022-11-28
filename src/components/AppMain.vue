@@ -9,21 +9,16 @@
 </script>
 
 <template>
-    <main class="container">
-      <div class="searchbar-container">
-          <SearchBar/>
-      </div>
-      <div class="card-container">
+    <main class="container ">
+         <SearchBar/>
+      <div class="card-container my-3">
         <h2>Found 62 characters</h2>
       </div>
    </main>
 </template>
 
 <style lang="scss" scoped>
-.searchbar-container{
-   width: 25%;
-   padding:20px;
-}
+
  .card-container{
     background-color: #fff;
     padding: 5px;

@@ -5,7 +5,7 @@
 </script>
 
 <template>
-    <select class="form-select searchbar" aria-label="Default select example">
+    <select class="form-select w-auto " >
         <option selected>Select Category</option>
         <option value="1">One</option>
         <option value="2">Two</option>
@@ -14,7 +14,5 @@
 </template>
 
 <style lang="scss">
-.searchbar{
-width: 200px;
-}
+
 </style>

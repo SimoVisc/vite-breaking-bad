@@ -10,15 +10,12 @@
 </script>
  
 <template>
-  <header>
+  <header class="d-flex align-items-center my-3">
      <AppLogo/>
      <h1>Breaking Bad Api</h1>
   </header>
 </template>
 
 <style lang="scss" scoped>
- header{
-    display: flex;
-    align-items: center;
- }
+ 
 </style>
