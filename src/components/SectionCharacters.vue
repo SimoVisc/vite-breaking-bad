@@ -22,7 +22,10 @@
 <template>
    <section class="container">
     <div class="row">
-       <AppCard class="col-auto" />
+       <AppCard 
+       v-for="character in characters"
+       :info="character"
+       class="col-auto" />
     </div>
    </section>
 </template>
