@@ -13,7 +13,7 @@
 
 <template>
     <main class="container ">
-         <SearchBar/>
+      <SearchBar/>
       <div class="container bg-light my-3 p-4">
         <h2 class="p-2">Found 62 characters</h2>
         <SectionCharacters/>
