@@ -4,7 +4,7 @@ import { objectToString } from '@vue/shared';
     export default {
     name: "AppCard",
     props:{
-        info: Object;
+        info: Object,
     }
    }
 </script>
