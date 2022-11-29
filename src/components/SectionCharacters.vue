@@ -1,5 +1,5 @@
 <script>
-    import axios from "axios";
+    import axios from 'axios';
     import AppCard from './AppCard.vue';
     export default {
     name: "SectionCharacters",
@@ -13,8 +13,9 @@
     },
     created(){
         axios.get("https://www.breakingbadapi.com/api/characters").then((resp)=>{
-        this.characters === resp.data.result
-        })
+            console.log(resp)
+        //   this.characters = resp.data.results;
+         })
     }
    }
 </script>
@@ -22,10 +23,10 @@
 <template>
    <section class="container">
     <div class="row">
-       <AppCard 
+      <AppCard 
        v-for="character in characters"
        :info="character"
-       class="col-auto" />
+       class="col-auto"/> 
     </div>
    </section>
 </template>

@@ -8,8 +8,8 @@ export default {
 </script>
 
 <template>
-    <div class="text-center py-3">
-    <img class=" img-fluid" :src="info.image" :alt="info.name" />
+    <div class=" container text-center py-3">
+    <img class=" img-fluid" :src="info.img" :alt="info.name" />
     <h3>{{ info.name }}</h3>
     <h2>{{ info.status }}</h2>
     </div>
